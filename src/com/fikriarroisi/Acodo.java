@@ -65,7 +65,7 @@ public class Acodo {
         General.clear();
         General.printHead();
         System.out.print("========================================|About|======================================\n"
-                + " ACoDo (A Count Down), is a count down timer program, there is two mode for counting :\n"
+                + " ACoDo (A Count Down), is a count down timer program, there are two mode for counting :\n"
                 + "   1. List countdown   : you specify your task and time as much as you want.\n"
                 + "   2. Toggle countdown : you specify just 2 tasks and number of loop for looping\n"
                 + "                         that 2 tasks.\n"
