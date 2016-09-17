@@ -2,10 +2,11 @@
 CLI based count down timer program written in Java.
 
 There are two mode two mode for counting : 
+
 1. List countdown   : you specify your task and time as much as you want.
 2. Toggle countdown : you specify just 2 tasks and number of loop for looping that 2 tasks.
 
-####How To
+###How To
 This is how to input a value or time:
 
 - Input duration in hours, minutes, and seconds:
@@ -17,22 +18,22 @@ This is how to input a value or time:
     - `x:y` for `x`:`y`:00, eg. `23:21` for 23:21:00
     - `x:y:z` for `x`:`y`:`z`, eg. `23:21:55` for 23:21:55
 - Trick for toggle countdown:
-    - when you want the countdown to looping FOREVER, input number of round with `-1` (negative one), but remember you have to force close the program to stop it (usually CTRL + C).
+    - If you want the two tasks to loop FOREVER, input number of round with `-1` (negative one), but remember you have to force close the program to stop it (usually CTRL + C).
 - How to change the alert sounds:
-    - You can change the alert sounds by replacing the .mp3 files in the "Sounds" directory (located in the same directory as the .jar file).
-    - Make sure you replace it with mp3 file.
-    - file named alertchange.mp3 used when the task starting or changing.
-    - file named alertalmost.mp3 used when the value or time less than 10 or 10 seconds.
-    - file named alertdone.mp3 used when all task done.
+    - You can change the alert sounds by replacing the .mp3 files in the "Sounds" directory (located in the same directory as the source file).
+    - Make sure you replace it with .mp3 file.
+    - file named change.mp3 used when the task starting or changing.
+    - file named almost.mp3 used when the value or time less than 10 or 10 seconds.
+    - file named done.mp3 used when all task done.
     - make sure you replace it with the **SAME EXACT** name!
-    - **NOTE** : Place the `Sound` folder in the same directory as the source file or jar file to make the notification work.
+    - **NOTE** : Place the `Sound` folder in the same directory as the source file or jar file to make the notification sound work.
 
-####Requirement 
+###Requirement 
 To run this program you need : 
 
 - [Java](https://java.com/en/download/)
 
-####Other
+###Other
 Made with <3 by Fikri Arroisi
 Version : 160916
 Default sound source:

@@ -24,9 +24,9 @@ public class Sound {
         try {
             jar = new File(AList.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath()).getParentFile();
 
-            File change = new File(jar + "/Sounds/alertchange.mp3");
-            File done = new File(jar + "/Sounds/alertdone.mp3");
-            File almost = new File(jar + "/Sounds/alertalmost.mp3");
+            File change = new File(jar + "/Sounds/change.mp3");
+            File done = new File(jar + "/Sounds/done.mp3");
+            File almost = new File(jar + "/Sounds/almost.mp3");
             if (change.exists()) {
                 playerChange = new MP3Player(change.getCanonicalFile());
                 changeEx = true;
