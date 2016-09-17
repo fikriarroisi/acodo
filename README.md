@@ -35,7 +35,9 @@ To run this program you need :
 
 ###Other
 Made with <3 by Fikri Arroisi
+
 Version : 160916
+
 Default sound source:
 
 - Task change - http://soundbible.com/1252-Bleep.html
