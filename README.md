@@ -1,4 +1,4 @@
-#ACODO
+# ACODO
 CLI based count down timer program written in Java.
 
 There are two mode two mode for counting : 
@@ -6,7 +6,7 @@ There are two mode two mode for counting :
 1. List countdown   : you specify your task and time as much as you want.
 2. Toggle countdown : you specify just 2 tasks and number of loop for looping that 2 tasks.
 
-###How To
+### How To
 This is how to input a value or time:
 
 - Input duration in hours, minutes, and seconds:
@@ -28,12 +28,12 @@ This is how to input a value or time:
     - make sure you replace it with the **SAME EXACT** name!
     - **NOTE** : Place the `Sound` folder in the same directory as the source file or jar file to make the notification sound work.
 
-###Requirement 
+### Requirement 
 To run this program you need : 
 
 - [Java](https://java.com/en/download/)
 
-###Other
+### Other
 Made with <3 by Fikri Arroisi
 
 Version : 160916
